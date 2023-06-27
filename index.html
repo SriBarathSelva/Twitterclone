@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barath's Twitter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="sidebar">
+        <i class="fab fa-twitter"></i>
+        <div class="sidebarOption active">
+            <span class="material-symbols-outlined">home</span>
+            <h2>Home</h2>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-symbols-outlined">search</span>
+            <h2>Explore</h2>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-symbols-outlined">
+                notifications
+                </span>
+            <h2>Notifications</h2>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-symbols-rounded">
+                mail
+                </span>
+            <h2>Messages</h2>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-symbols-rounded">
+                list_alt
+                </span>
+            <h2>Lists</h2>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-symbols-rounded">
+                bookmark
+                </span>
+            <h2>Bookmark</h2>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-symbols-rounded">
+                verified
+                </span>
+            <h2>Verified</h2>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-symbols-rounded">
+                person
+                </span>
+            <h2>Profile</h2>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-symbols-rounded">
+                more_horiz
+                </span>
+            <h2>More</h2>
+        </div>
+        <Div>
+            <button class="button-tweet">Tweet</button>
+        </Div>
+    </div>    
+
+<!-- feed box -->
+
+
+
+<div class="feed">
+
+    <div class="feed-header">
+    <h2>Home</h2>
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'London')">For You</button>
+        <button class="tablinks1" onclick="openCity(event, 'Paris')">Following</button>
+       
+      </div>
+    </div>
+    <div class="tweet-box">
+        <form>
+            <div class="tweet-input">
+                <img src="/barath.png" alt="barath">
+                <input type="text" placeholder="What's happening?">
+            </div>
+            <button class="tweetfeed">Tweet</button>
+        </form>
+    </div>
+
+    <div id="London" class="tabcontent">
+    <div>
+
+        <div class="post">
+            <div class="post-av">
+            <img src="barath.png" alt="">
+            </div>
+            <div class="pbody">
+                <div class="pheader">
+                    <div class="pheadertext">
+                        <h3>Sri Barath Selva G
+                        <span class="phspl"> 
+                        <span class="material-symbols-outlined badge">
+                            verified 
+                            </span>@barathselva
+                        </span>
+                    </div>
+                    <div class="des">
+                        <p>Certified in FullStack developer course in IIT Madras</p>
+                    </div>
+                </div>
+                <img src="BARATH POST.jpg" alt="">
+                <div class="container">
+                    
+                    <span class="material-symbols-outlined">
+                        chat_bubble
+                        </span> 
+                        <span class="material-symbols-outlined">
+                            repeat
+                        </span>
+                    <span class="material-symbols-outlined">
+                            favorite
+                        </span>
+                            
+                    <span class="material-symbols-outlined">
+                                    bar_chart_4_bars
+                        </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-av">
+            <img src="naveendp.png" alt="">
+            </div>
+            <div class="pbody">
+                <div class="pheader">
+                    <div class="pheadertext">
+                        <h3>Naveen Raj
+                        <span class="phspl"> 
+                        <span class="material-symbols-outlined badge">
+                            verified 
+                            </span>@13_naveen_21_ajith
+                        </span>
+                    </div>
+                    <div class="des">
+                        <p>pic with my frd @vishwag</p>
+                    </div>
+                </div>
+                <img src="naveenpost.jpg" alt="">
+                <div class="container">
+                    
+                    <span class="material-symbols-outlined">
+                        chat_bubble
+                        </span> 
+                        <span class="material-symbols-outlined">
+                            repeat
+                        </span>
+                    <span class="material-symbols-outlined">
+                            favorite
+                        </span>
+                            
+                    <span class="material-symbols-outlined">
+                                    bar_chart_4_bars
+                        </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="post">
+        <div class="post-av">
+        <img src="ponz dp.png" alt="">
+        </div>
+        <div class="pbody">
+            <div class="pheader">
+                <div class="pheadertext">
+                    <h3>Ponnaiyan
+                    <span class="phspl"> 
+                    <span class="material-symbols-outlined badge">
+                        verified 
+                        </span>@itz_me_ponz
+                    </span>
+                </div>
+                <div class="des">
+                    <p>At vishal d mal</p>
+                </div>
+            </div>
+            <img src="ponz post.jpg" alt="">
+            <div class="container">
+                
+                <span class="material-symbols-outlined">
+                    chat_bubble
+                    </span> 
+                    <span class="material-symbols-outlined">
+                        repeat
+                    </span>
+                <span class="material-symbols-outlined">
+                        favorite
+                    </span>
+                        
+                <span class="material-symbols-outlined">
+                                bar_chart_4_bars
+                    </span>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="Paris" class="tabcontent">
+        <div>
+            <div class="post">
+                <div class="post-av">
+                <img src="vishwadp.png" alt="">
+                </div>
+                <div class="pbody">
+                    <div class="pheader">
+                        <div class="pheadertext">
+                            <h3>vishwa_strom
+                            <span class="phspl"> 
+                            <span class="material-symbols-outlined badge">
+                                verified 
+                                </span>@vishwag
+                            </span>
+                        </div>
+                        <div class="des">
+                            <p>My new DP</p>
+                        </div>
+                    </div>
+                    <img src="vishwapost.jpg" alt="">
+                    <div class="container">
+                        
+                        <span class="material-symbols-outlined">
+                            chat_bubble
+                            </span> 
+                            <span class="material-symbols-outlined">
+                                repeat
+                            </span>
+                        <span class="material-symbols-outlined">
+                                favorite
+                            </span>
+                                
+                        <span class="material-symbols-outlined">
+                                        bar_chart_4_bars
+                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="post">
+            <div class="post-av">
+            <img src="abi dp.png" alt="">
+            </div>
+            <div class="pbody">
+                <div class="pheader">
+                    <div class="pheadertext">
+                        <h3>Abimanyu
+                        <span class="phspl"> 
+                        <span class="material-symbols-outlined badge">
+                            verified 
+                            </span>@sword_abi
+                        </span>
+                    </div>
+                    <div class="des">
+                        <p>Certified in AL ML in Oxford univ,canada.</p>
+                    </div>
+                </div>
+                <img src="abi post.jpg" alt="">
+                <div class="container">
+                    
+                    <span class="material-symbols-outlined">
+                        chat_bubble
+                        </span> 
+                        <span class="material-symbols-outlined">
+                            repeat
+                        </span>
+                    <span class="material-symbols-outlined">
+                            favorite
+                        </span>
+                            
+                    <span class="material-symbols-outlined">
+                                    bar_chart_4_bars
+                        </span>
+                </div>
+            </div>
+        </div>
+        </div>
+
+</div>
+
+
+</div>
+<!-- widgets-->
+<div class="widgets">
+    <div class="widiin">
+        <span class="material-symbols-outlined searchicon">
+            search
+            </span>
+            <input type="text" placeholder="Search Twitter">
+    </div>
+
+    <div class="widcon">
+        <h2>
+            What's Happening?
+        </h2>
+        <div class="trdbox">
+            <div class="tre">
+                <div class="trd">Trending in India</div>
+                <div class="trdtopic">#Vaadivaasal</div>
+                <div class="trd">137k Tweets</div>
+            </div>
+            <span class="material-symbols-outlined more">
+                more_horiz
+            </span>
+        </div>
+
+            <div class="trdbox">
+                <div class="tre">
+                     <div class="trd">EntertainmentTrending</div>
+                     <div class="trdtopic">#Suriya</div>
+                     <div class="trd">552k Tweets</div>
+                </div>
+                <span class="material-symbols-outlined more">
+                    more_horiz
+                </span>
+            </div>
+
+
+            <div class="trdbox">
+                <div class="tre">
+                <div class="trd">Trending in India</div>
+                <div class="trdtopic">#JusticeForShyam</div>
+                <div class="trd">457k Tweets</div>
+                </div>
+                
+                <span class="material-symbols-outlined more">
+                    more_horiz
+                    </span>
+                    
+            </div>
+
+                <div class="trdbox">
+                    <div class="tre">
+                    <div class="trd">Trending in India</div>
+                    <div class="trdtopic">#bloodysweet</div>
+                    <div class="trd">15.7k Tweets</div>
+                    </div>
+                    <span class="material-symbols-outlined more">
+                        more_horiz
+                        </span>
+                    </div>
+    </div>
+    
+
+</div>
+</body>
+<script src="script.js"></script>
+
+</html>
