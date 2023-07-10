@@ -300,5 +300,13 @@ p{
     .button-tweet{
         display: none;
     }
-    
+    .widgets{
+        display: none;
+    }
+    .feed{
+        width: 100px;
+    }
+    .sidebar{
+        transform: scale(20px);
+    }
 }
