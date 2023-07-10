@@ -56,7 +56,7 @@ body{
 .sidebar{
     border-right: 1px solid var(--twitter-background);
     flex: 0.2;
-    min-width: 250px;
+    min-width: fit-content;
     margin-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
@@ -292,12 +292,13 @@ p{
     font-family: 'Poppins', sans-serif;
 }
 
-@media screen and (max-width: 768px) {
-    /* CSS rules for screens up to 768px wide */
+@media only screen and (max-width: 768px) {
+    h2{
+        display: none;
     }
-    @media screen and (min-width: 769px) and (max-width: 1024px) { /* CSS rules for screens between 769px and 1024px wide */
+
+    .button-tweet{
+        display: none;
     }
-    @media screen and (min-width: 1025px) {
-       
-        
-    }
+    
+}
